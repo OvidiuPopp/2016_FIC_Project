@@ -297,7 +297,7 @@ int main(int argc, char* argv[])
 		//this function will return the x and y coordinates of the
 		//filtered object
 		if (trackObjects)
-			trackFilteredObject(x, y, threshold, cameraFeed);
+			trackFilteredObject(x1, y1, threshold, cameraFeed);
 		//show frames
 		imshow(windowName2, threshold);
 		imshow(windowName, cameraFeed);
